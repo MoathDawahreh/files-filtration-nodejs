@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const scriptFolderPath = path.dirname(__filename);
-const folderPath = path.join(scriptFolderPath, "languages");
+const folderPath = path.join(scriptFolderPath, "files");
 console.log(`folderPath: ${folderPath}`);
 
 fs.readdir(folderPath, (err, files) => {
